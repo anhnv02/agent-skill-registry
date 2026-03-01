@@ -1,36 +1,48 @@
 # Skill Usage Rules
 
-Tôi sẽ tự động sử dụng các Skill sau đây dựa trên loại yêu cầu của bạn:
-
-### 1. [Code Explorer](file:///Users/anhnguyen/Projects/workspace/skills/code-explorer/SKILL.md)
-**Khi nào dùng:** 
-- Bạn muốn hiểu một tính năng cụ thể hoạt động như thế nào ("Tính năng X chạy ra sao?").
-- Bạn yêu cầu giải thích luồng dữ liệu hoặc truy vết code từ đầu đến cuối.
-- Bạn cần tìm hiểu sự phụ thuộc giữa các thành phần trong hệ thống.
-
-### 2. [Code Architect](file:///Users/anhnguyen/Projects/workspace/skills/code-architect/SKILL.md)
-**Khi nào dùng:**
-- Bạn muốn thiết kế một tính năng mới hoặc thay đổi kiến trúc lớn.
-- Bạn yêu cầu một bản kế hoạch thực hiện (blueprint) chi tiết trước khi bắt đầu code.
-- Bạn cần tư vấn về các mẫu thiết kế (design patterns) phù hợp với codebase hiện tại.
-
-### 3. [Code Reviewer](file:///Users/anhnguyen/Projects/workspace/skills/code-reviewer/SKILL.md)
-**Khi nào dùng:**
-- Bạn yêu cầu review tập trung vào lỗi logic và tiêu chuẩn code trong file.
-- Bạn muốn soát lỗi nhanh cho các thay đổi nhỏ.
-
-### 4. [PR Reviewer](file:///Users/anhnguyen/Projects/workspace/skills/pr-reviewer/SKILL.md)
-**Khi nào dùng:**
-- Bạn muốn review một Pull Request hoàn chỉnh (hoặc các thay đổi lớn).
-- Cần sự chính xác cao, lọc bỏ các "nitpicks" để tập trung vào bug thực sự.
-- Yêu cầu kiểm tra kỹ CLAUDE.md compliance.
-
-### 5. [Frontend Designer](file:///Users/anhnguyen/Projects/workspace/skills/frontend-designer/SKILL.md)
-**Khi nào dùng:**
-- Bạn muốn xây dựng giao diện (HTML/CSS/JS, React, Vue...).
-- Yêu cầu thiết kế "xịn", có gu, animation mượt mà và không giống AI-generated.
-- Cần tư vấn về Typography, Color Palette và Layout sáng tạo.
+I will automatically use the following Skills based on the type of your request:
 
 ---
-> [!TIP]
-> Bạn cũng có thể yêu cầu trực tiếp bằng tên skill, ví dụ: "Dùng skill code-explorer để tìm luồng login".
+
+## 1. Code Explorer
+**When to use:**
+- You want to understand how a specific feature works (“How does feature X run?”).
+- You ask for an explanation of data flow or end-to-end code tracing.
+- You need to explore dependencies between system components.
+
+---
+
+## 2. Code Architect
+**When to use:**
+- You want to design a new feature or make major architectural changes.
+- You request a detailed implementation plan (blueprint) before coding.
+- You need advice on suitable design patterns for the current codebase.
+
+---
+
+## 3. Code Reviewer
+**When to use:**
+- You request a review focused on logic errors and coding standards in files.
+- You want a quick check for small changes.
+
+---
+
+## 4. PR Reviewer
+**When to use:**
+- You want a review of a complete Pull Request (or large changes).
+- High accuracy is required, filtering out nitpicks to focus on real bugs.
+- You need strict checking for **CLAUDE.md** compliance.
+
+---
+
+## 5. Frontend Designer
+**When to use:**
+- You want to build a UI (HTML/CSS/JS, React, Vue, etc.).
+- You require a polished, tasteful design with smooth animations that doesn’t look AI-generated.
+- You need advice on typography, color palettes, and creative layouts.
+
+---
+
+> 💡 **Tip**
+> You can also request a skill directly by name, for example:  
+> **“Use the code-explorer skill to find the login flow.”**
